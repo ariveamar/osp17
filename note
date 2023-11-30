@@ -1,0 +1,5 @@
+CATATAN INSTALL OSP 17.1
+
+Create Network & Subnet 
+openstack overcloud network provision --output /home/stack/templates/overcloud-networks-deployed.yaml  /home/stack/templates/02-network_data.yaml
+openstack overcloud network vip provision  --stack <stack> --output /home/stack/templates/overcloud-vip-deployed.yaml /home/stack/templates/vip_data.yaml
